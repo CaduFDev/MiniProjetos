@@ -1,0 +1,15 @@
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\bin\Debug\net6.0\Horas.exe
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\bin\Debug\net6.0\Horas.deps.json
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\bin\Debug\net6.0\Horas.runtimeconfig.json
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\bin\Debug\net6.0\Horas.dll
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\bin\Debug\net6.0\Horas.pdb
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\obj\Debug\net6.0\Horas.csproj.AssemblyReference.cache
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\obj\Debug\net6.0\Horas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\obj\Debug\net6.0\Horas.AssemblyInfoInputs.cache
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\obj\Debug\net6.0\Horas.AssemblyInfo.cs
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\obj\Debug\net6.0\Horas.csproj.CoreCompileInputs.cache
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\obj\Debug\net6.0\Horas.dll
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\obj\Debug\net6.0\refint\Horas.dll
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\obj\Debug\net6.0\Horas.pdb
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\obj\Debug\net6.0\Horas.genruntimeconfig.cache
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Horas\Horas\obj\Debug\net6.0\ref\Horas.dll
