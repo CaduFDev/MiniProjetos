@@ -6,12 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
+using SendGrid;
+using SendGrid.Helpers.Mail;
 
 namespace Model.Negocio
 {
     public class CessaoLogin : DAOConexao
     {
-        internal bool Logar(string usuario, string senha)
+        public bool Logar(string usuario, string senha)
         {
             using (var conexao = Conexao())
             {
@@ -38,7 +40,7 @@ namespace Model.Negocio
             }
 
         }
-        internal void CriarUsuario(string cpf, string usuario, string senha, string email, string celular)
+        public void CriarUsuario(string cpf, string usuario, string senha, string email, string celular)
         {
             using (var conexao = Conexao())
             {
@@ -55,6 +57,22 @@ namespace Model.Negocio
                     var resultado = comando.ExecuteNonQuery();
                 }
             }
-        }       
+        }
+        public async Task ConfirmarContaEmail(string emailDev, string emailUsuario, string usuario)
+        {
+            var apiKey = Environment.GetEnvironmentVariable("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");
+            var client = new SendGridClient(apiKey);
+            var from = new EmailAddress(emailDev, "CamelDev ");
+            var to = new EmailAddress(emailUsuario, usuario);
+            var subject = "Integration with C#";
+            var plainTextContent = "Seja bem vindo a CamelDev!";
+            var htmlContent = $"<Strong><h1>Olá, {usuario}</h1></Strong>" +
+                              "<br><br><br>" +
+                              "<h3> Recebemos sua solicitação para criação de conta!</h3>" +
+                              $"<h3>Toda informação importante será enviada pelo e-mail tudo bem ?!</h3> ";
+
+            var msg = MailHelper.CreateSingleEmail(from, to, subject, plainTextContent, htmlContent);
+            var response = await client.SendEmailAsync(msg);
+        }
     }
 }

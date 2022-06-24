@@ -18,3 +18,5 @@ C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Mini Projetos\Login\Lo
 C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Mini Projetos\Login\LoginScreen\LoginScreen\bin\Debug\SendGrid.xml
 C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Mini Projetos\Login\LoginScreen\LoginScreen\bin\Debug\Newtonsoft.Json.xml
 C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Mini Projetos\Login\LoginScreen\LoginScreen\obj\Debug\View.csproj.CopyComplete
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Mini Projetos\Login\LoginScreen\LoginScreen\obj\Debug\LoginScreen.frmCriarConta.resources
+C:\Users\caduzeira\OneDrive\Área de Trabalho\NovoProjeto\Mini Projetos\Login\LoginScreen\LoginScreen\obj\Debug\LoginScreen.frmRecConta.resources

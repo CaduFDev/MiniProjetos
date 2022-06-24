@@ -44,7 +44,7 @@
             this.txtLogin.Location = new System.Drawing.Point(16, 189);
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(241, 23);
-            this.txtLogin.TabIndex = 0;
+            this.txtLogin.TabIndex = 1;
             // 
             // txtSenha
             // 
@@ -52,7 +52,7 @@
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = '*';
             this.txtSenha.Size = new System.Drawing.Size(241, 23);
-            this.txtSenha.TabIndex = 1;
+            this.txtSenha.TabIndex = 2;
             // 
             // label1
             // 
@@ -84,7 +84,7 @@
             this.btnLogar.Location = new System.Drawing.Point(86, 277);
             this.btnLogar.Name = "btnLogar";
             this.btnLogar.Size = new System.Drawing.Size(94, 31);
-            this.btnLogar.TabIndex = 4;
+            this.btnLogar.TabIndex = 3;
             this.btnLogar.Text = "Entrar";
             this.btnLogar.UseVisualStyleBackColor = true;
             this.btnLogar.Click += new System.EventHandler(this.btnLogar_Click);
@@ -99,6 +99,7 @@
             this.linkLabel1.TabIndex = 5;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Criar ou recuperar conta";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label2
             // 

@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCriarConta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCriarConta.Designer.cs">
+      <DependentUpon>frmCriarConta.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLoginScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmLoginScreen.Designer.cs">
       <DependentUpon>frmLoginScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRecConta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecConta.Designer.cs">
+      <DependentUpon>frmRecConta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCriarConta.resx">
+      <DependentUpon>frmCriarConta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLoginScreen.resx">
       <DependentUpon>frmLoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecConta.resx">
+      <DependentUpon>frmRecConta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

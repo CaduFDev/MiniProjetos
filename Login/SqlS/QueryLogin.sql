@@ -16,3 +16,4 @@ END;
 SELECT * FROM dbo.USUARIOS WHERE ID = @id;
 
 EXEC INSERIR_USUARIO 98765432111, GalvoArte, 35487761, 'financeiro@galvoarteinox.com.br', 1432830411;
+
